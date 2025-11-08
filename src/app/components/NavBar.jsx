@@ -48,7 +48,7 @@ export default function NavBar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn text-red-600 bg-white border border-red-600">Appointment</a>
+    <a className="btn text-[#FF3811] bg-white border border-[#FF3811]">Appointment</a>
   </div>
 </div>
     </div>

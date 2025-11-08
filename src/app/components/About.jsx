@@ -13,7 +13,7 @@ export default function About() {
       <section className="w-full max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left: overlapping images */}
-          <div className="relative flex justify-center lg:justify-end">
+          <div className="relative flex justify-between lg:justify-end">
             <div className="w-[320px] md:w-[380px] lg:w-[420px] h-auto rounded-lg overflow-hidden shadow-xl">
               <Image
                 src={person}
@@ -34,7 +34,7 @@ export default function About() {
 
           {/* Right: text content */}
           <div className="pt-6 lg:pt-0">
-            <p className="text-sm font-semibold text-red-600">About Us</p>
+            <p className="text-sm font-semibold text-[#FF3811]">About Us</p>
 
             <h3 className="mt-4 text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
               We are qualified
@@ -53,7 +53,7 @@ export default function About() {
             <div className="mt-8">
               <a
                 href="#more"
-                className="inline-block px-6 py-3 rounded-md bg-red-500 hover:bg-red-600 text-white font-semibold shadow-lg"
+                className="inline-block px-6 py-3 rounded-md bg-[#FF3811] hover:bg-red-600 text-white font-semibold shadow-lg"
               >
                 Get More Info
               </a>
