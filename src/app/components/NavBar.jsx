@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'next/link'
-import tailwindcss from 'tailwindcss'
-import Image from 'next/image'
-import logo from '../../../public/assets/icons/logo.png'
+import React from 'react';
+import Link from 'next/link';
+import tailwindcss from 'tailwindcss';
+import Image from 'next/image';
+import logo from '../../../public/assets/icons/logo.png';
 
 export default function NavBar() {
   const navMenu = () => 
@@ -29,7 +29,7 @@ export default function NavBar() {
   }
   return (
     <div>
-      <div className="navbar shadow-sm">
+      <div className="navbar max-w-11/12 mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ export default function NavBar() {
        {navMenu()}
       </ul>
     </div>
-     <Image src={logo} alt="logo" width={60} height={60} />
+     <Link href={"/"}><Image src={logo} alt="logo" width={60} height={60} /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
