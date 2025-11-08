@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
+ .banner{
+    background-image: url("../../public/assets/images/banner/bannar.jpg");
+    border-radius: 8px;
+    width: full;
+    height: 600px;
+    object-fit: fill;
+ }
 
 
 

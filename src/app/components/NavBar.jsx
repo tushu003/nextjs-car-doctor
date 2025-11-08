@@ -5,8 +5,7 @@ import Image from 'next/image';
 import logo from '../../../public/assets/icons/logo.png';
 
 export default function NavBar() {
-  const navMenu = () => 
-  {
+  const navMenu = () => {
     return (
       <>
       <li>
@@ -29,7 +28,7 @@ export default function NavBar() {
   }
   return (
     <div>
-      <div className="navbar max-w-11/12 mx-auto">
+      <div className="navbar max-w-11/12 mx-auto mb-2">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,7 +40,7 @@ export default function NavBar() {
        {navMenu()}
       </ul>
     </div>
-     <Link href={"/"}><Image src={logo} alt="logo" width={60} height={60} /></Link>
+     <Link href={"/"}><Image src={logo} alt="logo" width={70} height={70} /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
