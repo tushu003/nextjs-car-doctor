@@ -1,5 +1,6 @@
 // tailwind.config.js
-import daisyui from 'daisyui'
+import daisyui from 'daisyui';
+import themes from 'daisyui/theme/object';
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -25,3 +26,4 @@ const config = {
 }
 
 export default config
+ 
