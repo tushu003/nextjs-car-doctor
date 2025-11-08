@@ -43,14 +43,14 @@ export default function Banner() {
                 <div className="mt-6 flex items-center gap-4">
                   <a
                     href="#book"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white font-medium shadow-md"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-[4px] bg-[#FF3811] hover:bg-orange-400 text-white font-medium shadow-md"
                   >
                     Discover More
                   </a>
 
                   <a
                     href="#projects"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-white/30 text-white/90 bg-white/10 hover:bg-white/20"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-[4px] border border-white/30 text-white/90 bg-white/10 hover:bg-white/20"
                   >
                     Latest Projects
                   </a>
@@ -86,7 +86,7 @@ export default function Banner() {
             </button>
             <button
               aria-label="next"
-              className="w-10 h-10 rounded-full bg-red-600 text-white grid place-items-center shadow">
+              className="w-10 h-10 rounded-full bg-[#FF3811] text-white grid place-items-center shadow">
               ›
             </button>
           </div>
