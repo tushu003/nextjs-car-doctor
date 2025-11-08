@@ -9,7 +9,7 @@ export const revalidate = 0;
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-white flex items-center justify-center p-8">
+    <main className="min-h-screen bg-white flex items-center justify-center px-8 py-3">
       <section className="w-full max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left: overlapping images */}
@@ -43,11 +43,11 @@ export default function About() {
             </h3>
 
             <p className="mt-6 text-sm md:text-base text-gray-500 max-w-xl">
-              There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable.
+              There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Do not Look Even Slightly Believable.
             </p>
 
             <p className="mt-4 text-sm md:text-base text-gray-500 max-w-xl">
-              The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable.
+              The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Do not Look Even Slightly Believable.
             </p>
 
             <div className="mt-8">
