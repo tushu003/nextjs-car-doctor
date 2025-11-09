@@ -16,24 +16,23 @@ export default function Footer() {
     </div>
   </aside>
   <nav>
-    <h6 className="footer-title text-white">Services</h6>
-    <a className="link link-hover text-white">Branding</a>
-    <a className="link link-hover text-white">Design</a>
-    <a className="link link-hover text-white">Marketing</a>
-    <a className="link link-hover text-white">Advertisement</a>
+    <h6 className="footer-title text-white">About</h6>
+    <a className="link link-hover text-white">Home</a>
+    <a className="link link-hover text-white">Service</a>
+    <a className="link link-hover text-white">Contact</a>
+   
   </nav>
   <nav>
     <h6 className="footer-title text-white">Company</h6>
-    <a className="link link-hover text-white">About us</a>
-    <a className="link link-hover text-white">Contact</a>
-    <a className="link link-hover text-white">Jobs</a>
-    <a className="link link-hover text-white">Press kit</a>
+    <a className="link link-hover text-white">Why Car Doctor</a>
+    <a className="link link-hover text-white">About</a>
+   
   </nav>
   <nav>
-    <h6 className="footer-title text-white">Legal</h6>
-    <a className="link link-hover text-white">Terms of use</a>
-    <a className="link link-hover text-white">Privacy policy</a>
-    <a className="link link-hover text-white">Cookie policy</a>
+    <h6 className="footer-title text-white">Support</h6>
+    <a className="link link-hover text-white">Support Center</a>
+    <a className="link link-hover text-white">Feedback</a>
+    <a className="link link-hover text-white">Accesbility</a>
   </nav>
 </footer>
     </div>
