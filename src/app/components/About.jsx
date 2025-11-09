@@ -43,7 +43,7 @@ export default function About() {
             </h3>
 
             <p className="mt-6 text-sm md:text-base text-gray-500 max-w-xl">
-              There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Do not Look Even Slightly Believable.
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which donnot look even slightly believable. 
             </p>
 
             <p className="mt-4 text-sm md:text-base text-gray-500 max-w-xl">
