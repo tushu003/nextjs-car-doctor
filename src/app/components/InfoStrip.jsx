@@ -2,6 +2,11 @@
 // A reusable InfoStrip component matching the provided design.
 // Usage: place this file in `components/InfoStrip.jsx` and import it into `app/page.jsx` or wherever needed.
 
+import Image from "next/image";
+import timeTable from "../../../public/assets/icons/timetable.png";
+import phone from "../../../public/assets/icons/phone.png";
+import location from "../../../public/assets/icons/location.png";
+
 export default function InfoStrip() {
     return (
       <div className=" md:mx-20 lg:mx-3">
@@ -11,11 +16,9 @@ export default function InfoStrip() {
   
               {/* Item 1 */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-md bg-white/10 grid place-items-center">
+                <div className=" rounded-md grid place-items-center">
                   {/* calendar + clock icon */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white">
-                    <path d="M7 11h6v2H7z" />
-                  </svg>
+                 <Image src={timeTable} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
                   <p className="text-xs text-white/70 mb-1">We are open monday-friday</p>
@@ -25,11 +28,9 @@ export default function InfoStrip() {
   
               {/* Item 2 */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-md bg-white/10 grid place-items-center">
+                <div className="rounded-m grid place-items-center">
                   {/* phone/chat icon */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white">
-                    <path d="M2 3.5A1.5 1.5 0 0 1 3.5 2h17A1.5 1.5 0 0 1 22 3.5v11A1.5 1.5 0 0 1 20.5 16H6L2 20V3.5z" />
-                  </svg>
+                  <Image src={phone} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
                   <p className="text-xs text-white/70 mb-1">Have a question?</p>
@@ -39,11 +40,9 @@ export default function InfoStrip() {
   
               {/* Item 3 */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-md bg-white/10 grid place-items-center">
+                <div className=" rounded-md grid place-items-center">
                   {/* location icon */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1 1 10 0c0 2.76-2.24 5-5 5s-5-2.24-5-5z" />
-                  </svg>
+                  <Image src={location} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
                   <p className="text-xs text-white/70 mb-`">Need a repair? our address</p>
