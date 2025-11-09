@@ -8,7 +8,7 @@ export default function Footer() {
     <div>
         <footer className="footer sm:footer-horizontal bg-[#151515] mt-8 text-base-content p-10">
   <aside>
-<Image src={logo}  alt='logo' width={70} height={70}/>
+<Image src={logo}  alt='logo' width={70} height={70} className='text-white'/>
     <p className='text-white/80'>
     Edwin Diaz is a software and web <br /> technologies engineer, a life coach <br /> trainer who is also a serial</p>
     <div className='flex items-center gap-2 mt-4'>
@@ -17,22 +17,22 @@ export default function Footer() {
   </aside>
   <nav>
     <h6 className="footer-title text-white">About</h6>
-    <a className="link link-hover text-white">Home</a>
-    <a className="link link-hover text-white">Service</a>
-    <a className="link link-hover text-white">Contact</a>
+    <a className="link link-hover text-white/80">Home</a>
+    <a className="link link-hover text-white/80">Service</a>
+    <a className="link link-hover text-white/80">Contact</a>
    
   </nav>
   <nav>
     <h6 className="footer-title text-white">Company</h6>
-    <a className="link link-hover text-white">Why Car Doctor</a>
-    <a className="link link-hover text-white">About</a>
+    <a className="link link-hover text-white/80">Why Car Doctor</a>
+    <a className="link link-hover text-white/80">About</a>
    
   </nav>
   <nav>
     <h6 className="footer-title text-white">Support</h6>
-    <a className="link link-hover text-white">Support Center</a>
-    <a className="link link-hover text-white">Feedback</a>
-    <a className="link link-hover text-white">Accesbility</a>
+    <a className="link link-hover text-white/80">Support Center</a>
+    <a className="link link-hover text-white/80">Feedback</a>
+    <a className="link link-hover text-white/80">Accesbility</a>
   </nav>
 </footer>
     </div>
