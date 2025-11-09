@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-        <footer className="footer sm:footer-horizontal bg-black mt-8 text-base-content p-10">
+        <footer className="footer sm:footer-horizontal bg-[#151515] mt-8 text-base-content p-10">
   <aside>
     <svg
       width="50"
