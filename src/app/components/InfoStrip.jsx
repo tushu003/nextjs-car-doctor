@@ -4,9 +4,9 @@
 
 export default function InfoStrip() {
     return (
-      <div className="mx-8 md:mx-20 lg:mx-32">
-        <div className="bg-gray-900 text-white rounded-xl p-6 md:p-8 shadow-sm">
-          <div className="max-w-6xl mx-auto">
+      <div className=" md:mx-20 lg:mx-3">
+        <div className="bg-gray-900 text-white rounded-[8px] p-6 lg:py-12 md:p-8 shadow-sm">
+          <div className="w-11/12 mx-auto">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
   
               {/* Item 1 */}
@@ -18,7 +18,7 @@ export default function InfoStrip() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70">We are open monday-friday</p>
+                  <p className="text-xs text-white/70 mb-1">We are open monday-friday</p>
                   <p className="font-semibold text-sm md:text-base">7:00 am - 9:00 pm</p>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function InfoStrip() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70">Have a question?</p>
+                  <p className="text-xs text-white/70 mb-1">Have a question?</p>
                   <p className="font-semibold text-sm md:text-base">+2546 251 2658</p>
                 </div>
               </div>
@@ -46,7 +46,7 @@ export default function InfoStrip() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70">Need a repair? our address</p>
+                  <p className="text-xs text-white/70 mb-`">Need a repair? our address</p>
                   <p className="font-semibold text-sm md:text-base">Liza Street, New York</p>
                 </div>
               </div>
