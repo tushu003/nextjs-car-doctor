@@ -21,7 +21,7 @@ export default function InfoStrip() {
                  <Image src={timeTable} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70 mb-1">We are open monday-friday</p>
+                  <p className="text-xs text-white/80 mb-1">We are open monday-friday</p>
                   <p className="font-semibold text-sm md:text-base">7:00 am - 9:00 pm</p>
                 </div>
               </div>
@@ -33,7 +33,7 @@ export default function InfoStrip() {
                   <Image src={phone} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70 mb-1">Have a question?</p>
+                  <p className="text-xs text-white/80 mb-1">Have a question?</p>
                   <p className="font-semibold text-sm md:text-base">+2546 251 2658</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function InfoStrip() {
                   <Image src={location} alt="timetable" width={36} height={36}/>
                 </div>
                 <div>
-                  <p className="text-xs text-white/70 mb-`">Need a repair? our address</p>
+                  <p className="text-xs text-white/80 mb-`">Need a repair? our address</p>
                   <p className="font-semibold text-sm md:text-base">Liza Street, New York</p>
                 </div>
               </div>
