@@ -162,12 +162,12 @@ export default function Services() {
     ]
     
   return (
-    <div className='grid grid-cols-12'>
+    <div className=' grid grid-cols-12 gap-3'>
         {
             data.map((item)=>(
                 <article
             key={item._id}
-            className="bg-white rounded-lg shadow-md overflow-hidden col-span-4"
+            className="bg-white rounded-lg shadow-md overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
           >
             <div className="relative w-full h-40">
               <Image
@@ -175,7 +175,7 @@ export default function Services() {
                 alt={item.title}
                 fill
                 className="object-cover"
-                // remove `unoptimized` in production if you whitelist domains in next.config.js
+                
                 unoptimized
               />
             </div>
