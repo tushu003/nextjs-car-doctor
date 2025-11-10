@@ -167,26 +167,26 @@ export default function Services() {
             data.map((item)=>(
                 <article
             key={item._id}
-            className="bg-white rounded-lg shadow-md overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
+            className="bg-white rounded-lg p-4 shadow-md overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
           >
             <div className="relative w-full h-40">
               <Image
                 src={item.img}
                 alt={item.title}
                 fill
-                className="object-cover"
+                className="object-cover rounded-[8px]"
                 
                 unoptimized
               />
             </div>
   
-            <div className="p-4 flex-1 flex flex-col">
+            <div className=" flex-1 flex flex-col">
               <h3 className="text-lg font-semibold">{item.title}</h3>
-              <p className="text-sm text-gray-500 mt-2 line-clamp-3">{item.description}</p>
+            
   
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-red-600 font-bold">${item.price}</span>
-                <button className="px-3 py-1 bg-red-500 text-white rounded-md text-sm">
+                <span className="tex-[#FF3811] font-bold">price: ${item.price}</span>
+                <button className="px-3 py-1 bg-[#FF3811] text-white rounded-md text-sm">
                   Book Now
                 </button>
               </div>
