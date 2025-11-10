@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { GrFormNextLink } from 'react-icons/gr';
 
 export default function Services() {
     const data = [
@@ -185,9 +186,9 @@ export default function Services() {
             
   
               <div className="mt-4 flex items-center justify-between">
-                <span className="tex-[#FF3811] font-bold">price: ${item.price}</span>
-                <button className="px-3 py-1 bg-[#FF3811] text-white rounded-md text-sm">
-                  Book Now
+                <span className="text-[#FF3811] font-bold">price: ${item.price}</span>
+                <button className="px-3 py-1 text-[#FF3811] rounded-md text-2xl">
+                  <GrFormNextLink />
                 </button>
               </div>
             </div>
