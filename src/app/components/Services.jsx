@@ -167,9 +167,9 @@ export default function Services() {
             data.map((item)=>(
                 <article
             key={item._id}
-            className="bg-white rounded-lg p-4 shadow-md overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
+            className="bg-white rounded-lg p-4 border border-[#E8E8E8] overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
           >
-            <div className="relative w-full h-40">
+            <div className="relative w-full h-50 mb-2">
               <Image
                 src={item.img}
                 alt={item.title}
