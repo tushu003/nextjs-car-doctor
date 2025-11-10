@@ -163,7 +163,11 @@ export default function Services() {
     ]
     
   return (
-    <div className=' grid grid-cols-12 gap-3'>
+    <div>
+        <p className='text-[#FF3811] font-bold text-center'>service</p>
+        <h2 className='text-black font-bold text-center text-2xl mb-1'>Our Service Area</h2>
+        <p className='text-center text-gray-600 mb-6'>The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which do not look even slightly believable. </p>
+          <div className=' grid grid-cols-12 gap-3'>
         {
             data.map((item)=>(
                 <article
@@ -194,6 +198,10 @@ export default function Services() {
             </div>
           </article>
             ))};
+    </div>
+    <div className='text-center'>
+        <button className='text-[#FF3811] border border-[#FF3811] px-3 mb-8 py-2 rounded-md'>More Services</button>
+    </div>
     </div>
   );
             
