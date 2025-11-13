@@ -1,6 +1,7 @@
 import dbConnect from '@/lib/dbConnect';
 import { Collection } from 'mongodb';
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 import { GrFormNextLink } from 'react-icons/gr';
 
@@ -205,7 +206,7 @@ export default function Services() {
             ))};
     </div>
     <div className='text-center'>
-        <button className='text-[#FF3811] border border-[#FF3811] px-3 mb-8 py-2 rounded-md'>More Services</button>
+        <Link href={`/services/${item.service_id}`} className='text-[#FF3811] border border-[#FF3811] px-3 mb-8 py-2 rounded-md'>More Services</Link>
     </div>
     </div>
   );
