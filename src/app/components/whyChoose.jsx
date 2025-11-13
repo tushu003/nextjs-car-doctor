@@ -27,7 +27,7 @@ export default function WhyChoose() {
                 <p className='text-black font-bold text-center text-[12px] mb-1'>24/7 Support</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
-            <Image src={group3} alt='group' width={28} height={28} className='my-1 ml-10' />
+            <Image src={group3} alt='group' width={30} height={30} className='my-1 ml-10' />
                 <p className='text-black font-bold text-center text-[12px] mb-1'>Best Equipment</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
