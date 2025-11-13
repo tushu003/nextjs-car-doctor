@@ -177,7 +177,7 @@ export default function Services() {
         {
             data.map((item)=>(
                 <article
-            key={item._id}
+            key={item.service_id}
             className="bg-white rounded-lg p-4 border border-[#E8E8E8] overflow-hidden col-span-12 md:col-span-6 lg:col-span-4 gap-3"
           >
             <div className="relative w-full h-50 mb-2">
@@ -206,7 +206,7 @@ export default function Services() {
             ))};
     </div>
     <div className='text-center'>
-        <Link href={`/services/${item.service_id}`} className='text-[#FF3811] border border-[#FF3811] px-3 mb-8 py-2 rounded-md'>More Services</Link>
+        <button className='text-[#FF3811] border border-[#FF3811] px-3 mb-8 py-2 rounded-md'>More Services</button>
     </div>
     </div>
   );

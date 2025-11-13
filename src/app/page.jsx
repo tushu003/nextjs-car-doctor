@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import InfoStrip from "./components/InfoStrip";
 import Services from "./components/Services";
+import WhyChoose from "./components/WhyChoose";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <About />
     <Services />
     <InfoStrip />
+    <WhyChoose />
   </div>
   );
 }
