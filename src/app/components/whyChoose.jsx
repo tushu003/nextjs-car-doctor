@@ -20,23 +20,23 @@ export default function WhyChoose() {
             </div>
             <div className='p-6 rounded-[4px] bg-[#FF3811] border border-gray-200'>
                 <Image src={group5} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[18px] mb-1'>Timely Delivery</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group4} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[18px] mb-1'>24/7 Support</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
             <Image src={group3} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[18px] mb-1'>Best Equipment</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group1} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[18px] mb-1'>100% Guarantee</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group2} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[18px] mb-1'>Timely Delivery</p>
             </div>
         </div>
     </div>
