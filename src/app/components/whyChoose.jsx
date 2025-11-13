@@ -16,27 +16,27 @@ export default function WhyChoose() {
         <div className='grid grid-cols-3 lg:grid-cols-6 gap-4 mb-8'>
             <div className='p-6 rounded-[4px] border border-gray-200 text-center items-center'>
                 <Image src={group} alt='group' width={28} height={28} className='my-1 ml-10 ' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Expert Team</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>Expert Team</p>
             </div>
             <div className='p-6 rounded-[4px] bg-[#FF3811] border border-gray-200'>
                 <Image src={group5} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Timely Delivery</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>Timely Delivery</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group4} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>24/7 Support</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>24/7 Support</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
             <Image src={group3} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Best Equipment</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>Best Equipment</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group1} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>100% Guarantee</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>100% Guarantee</p>
             </div>
             <div className='p-6 rounded-[4px] border border-gray-200'>
                 <Image src={group2} alt='group' width={28} height={28} className='my-1 ml-10' />
-                <p className='text-black font-bold text-center text-[18px] mb-1'>Timely Delivery</p>
+                <p className='text-black font-bold text-center text-[12px] mb-1'>Timely Delivery</p>
             </div>
         </div>
     </div>
