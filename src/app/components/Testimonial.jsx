@@ -14,7 +14,7 @@ export default function Testimonial() {
         },
         {
             id: 2,
-            name: "Awlad Hossain",
+            name: "Roman Sorkar",
             role: "Businessman",
             avatar: "https://i.ibb.co/T2cpBd5/888.jpg",
             text:
