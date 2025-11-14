@@ -81,12 +81,12 @@ export default function Banner() {
           <div className="absolute right-6 bottom-6 hidden lg:flex items-center gap-3">
             <button
               aria-label="previous"
-              className="w-10 h-10 rounded-full bg-white/90 text-gray-800 grid place-items-center shadow">
+              className="w-10 h-10 rounded-full bg-white/90 text-gray-800 grid p-2 place-items-center shadow">
               ‹
             </button>
             <button
               aria-label="next"
-              className="w-10 h-10 rounded-full bg-[#FF3811] text-white grid place-items-center shadow">
+              className="w-10 h-10 rounded-full bg-[#FF3811] text-white p-2 grid place-items-center shadow">
               ›
             </button>
           </div>
