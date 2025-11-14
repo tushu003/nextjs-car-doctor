@@ -27,7 +27,7 @@ export default function Testimonial() {
             <p className='text-[#FF3811] font-bold text-center'>Testimonial</p>
             <h2 className='text-black font-bold text-center text-2xl mb-1'>Why Choose Us</h2>
             <p className='text-center text-gray-600 mb-6'>The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which do not look even slightly believable. </p>
-            <main className= "flex items-center justify-center ">
+            <main className= "flex items-center gap-4 justify-center ">
             <article className="flex-1 bg-white rounded-2xl shadow-lg p-8 border border-transparent transition transform scale-100">
                 <header className="flex items-center gap-4">
                     <Image src={testimonials.avatar} alt="avatar" className="w-12 h-12 rounded-full object-cover" />
