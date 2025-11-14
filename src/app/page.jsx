@@ -4,6 +4,7 @@ import About from "./components/About";
 import InfoStrip from "./components/InfoStrip";
 import Services from "./components/Services";
 import WhyChoose from "./components/WhyChoose";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Services />
     <InfoStrip />
     <WhyChoose />
+    <Testimonial />
   </div>
   );
 }
