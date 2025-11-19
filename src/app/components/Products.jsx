@@ -21,7 +21,7 @@ export default function Products() {
         <p className="text-sm text-red-500 font-semibold">Popular Products</p>
         <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">Browse Our Products</h2>
         <p className="mx-auto mt-3 max-w-2xl text-sm text-gray-500">
-          The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable.
+          The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Dont Look Even Slightly Believable.
         </p>
       </div>
 
