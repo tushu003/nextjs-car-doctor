@@ -1,4 +1,4 @@
-import dbConnect from '@/lib/dbConnect';
+
 import { Collection } from 'mongodb';
 import Image from 'next/image'
 import Link from 'next/link';
