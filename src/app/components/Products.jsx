@@ -65,16 +65,3 @@ export default function Products() {
   );
 }
 
-/*
-How to use:
-1. Save this file as `components/ProductsSection.jsx` in your Next.js project.
-2. Make sure Tailwind CSS is installed and configured (the default Next + Tailwind setup).
-3. Import and use in `pages/index.js`:
-
-   import ProductsSection from '../components/ProductsSection';
-   export default function Home(){
-     return <ProductsSection />;
-   }
-
-4. The component references the uploaded image at `/mnt/data/26eb3444-c317-4aa3-9975-b58c7e316c20.png` (already included in this conversation). In a production app you should copy product images to `public/` and use `/images/...` paths instead.
-*/
