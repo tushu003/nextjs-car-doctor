@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 // ProductsSection.jsx
@@ -33,7 +34,7 @@ export default function Products() {
             <div className="p-6 flex flex-col items-center">
               <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                 {/* Using the uploaded image file as the product image */}
-                <img
+                <Image
                   src="/mnt/data/26eb3444-c317-4aa3-9975-b58c7e316c20.png"
                   alt={p.title}
                   className="object-contain h-full"
