@@ -51,7 +51,7 @@ export default function Products() {
               </div>
 
               <h3 className="text-sm font-semibold text-gray-800 mb-1">{p.title}</h3>
-              <p className="text-sm text-red-500 font-medium">{p.price}</p>
+              <p className="text-sm text-red-500 font-medium">Price: {p.price}</p>
             </div>
           </article>
         ))}
