@@ -136,7 +136,7 @@ export default function Services() {
                 },
                 {
                     "name": "Quality Cost Service",
-                    "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                    "details": "Fuga numquam tulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
                 }
             ]
         },
