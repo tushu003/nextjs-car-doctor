@@ -10,7 +10,7 @@ import location from "../../../public/assets/icons/location.png";
 export default function InfoStrip() {
     return (
       <div className=" ">
-        <div className="bg-[#151515] text-white w-11/12 mx-auto rounded-[8px] p-6 lg:py-12 md:p-8 shadow-sm">
+        <div className="bg-[#151515] text-white w-11/12 mx-auto rounded-[8px] px-16 mt-8 lg:py-12 md:p-8 shadow-sm">
           <div className="">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
   
