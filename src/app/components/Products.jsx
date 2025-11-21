@@ -16,7 +16,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16">
+    <section className="max-w-6xl mx-auto px-6 pt-16">
       <div className="text-center">
         <p className="text-sm text-red-500 font-semibold">Popular Products</p>
         <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">Browse Our Products</h2>
