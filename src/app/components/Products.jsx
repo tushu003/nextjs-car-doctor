@@ -37,6 +37,8 @@ export default function Products() {
                 <Image
                   src="/mnt/data/26eb3444-c317-4aa3-9975-b58c7e316c20.png"
                   alt={p.title}
+                  width={214}
+                  height={187}
                   className="object-contain h-full"
                 />
               </div>
