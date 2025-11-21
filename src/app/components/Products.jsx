@@ -60,7 +60,7 @@ export default function Products() {
       </div>
 
       <div className="mt-8 text-center">
-        <button className="inline-block px-3 py-2 rounded-full border border-red-200 text-red-500 text-sm hover:bg-red-50 transition">
+        <button className="inline-block px-3 py-2 rounded-8[px] border border-[#FF3811] text-[#FF3811] text-sm hover:bg-red-50 transition">
           More Products
         </button>
       </div>
