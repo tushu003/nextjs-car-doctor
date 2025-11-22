@@ -8,11 +8,11 @@ import React from 'react';
 export default function Products() {
   const products = [
     { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
-    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
-    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
-    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
-    { "id": "001", "img": "https://ibb.co.com/c0T2fDs", "title": "Car Engine Plug", "price": "$20.00" },
-    { "id": "001", "img": "https://i.ibb.co/KzCG8qr/8888.jpg", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "002", "img": "https://ibb.co.com/c0T2fDs", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "003", "img": "https://ibb.co.com/c0T2fDs", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "004", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "005", "img": "https://ibb.co.com/c0T2fDs", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "006", "img": "https://i.ibb.co/KzCG8qr/8888.jpg", "title": "Car Engine Plug", "price": "$20.00" },
   ];
 
   return (
