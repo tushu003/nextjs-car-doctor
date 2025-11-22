@@ -8,6 +8,14 @@ const nextConfig = {
         hostname: 'i.ibb.co',
        
       },
+        {
+        protocol: 'https',
+        hostname: 'ibb.co.com',
+      },
+        {
+        protocol: 'https',
+        hostname: 'ibb.co',
+      },
     ],
   },
 }

@@ -7,12 +7,12 @@ import React from 'react';
 
 export default function Products() {
   const products = [
-    { id: 1, title: 'Car Engine Plug', price: '$20.00' },
-    { id: 2, title: 'Car Air Filter', price: '$20.00' },
-    { id: 3, title: 'Cools Led Light', price: '$20.00' },
-    { id: 4, title: 'Cools Led Light', price: '$20.00' },
-    { id: 5, title: 'Cools Led Light', price: '$20.00' },
-    { id: 6, title: 'Cools Led Light', price: '$20.00' },
+    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "001", "img": "https://ibb.co.com/SwhTzs5w", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "001", "img": "https://ibb.co.com/c0T2fDs", "title": "Car Engine Plug", "price": "$20.00" },
+    { "id": "001", "img": "https://i.ibb.co/KzCG8qr/8888.jpg", "title": "Car Engine Plug", "price": "$20.00" },
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function Products() {
               <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                 {/* Using the uploaded image file as the product image */}
                 <Image
-                  src="/mnt/data/26eb3444-c317-4aa3-9975-b58c7e316c20.png"
+                  src={p.img}
                   alt={p.title}
                   width={214}
                   height={187}
