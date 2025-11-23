@@ -1,9 +1,9 @@
 // app/page.jsx
 // Next.js App Router page that reproduces the "About Us" section shown in the screenshot
 // Put the image `9fe2bf20-3ada-4ae3-878c-b9c27de54d7f.png` in your project's `public/` folder
-import Image from 'next/image';
-import person from '../../../public/assets/images/about_us/person.jpg';
-import parts from '../../../public/assets/images/about_us/parts.jpg';
+import Image from "next/image";
+import person from "../../../public/assets/images/about_us/person.jpg";
+import parts from "../../../public/assets/images/about_us/parts.jpg";
 
 export const revalidate = 0;
 
@@ -43,11 +43,16 @@ export default function About() {
             </h3>
 
             <p className="mt-6 text-sm md:text-base text-gray-500 max-w-xl">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which donnot look even slightly believable. 
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which donnot look even
+              slightly believable.
             </p>
 
             <p className="mt-4 text-sm md:text-base text-gray-500 max-w-xl">
-              The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Do not Look Even Slightly Believable.
+              The Majority Have Suffered Alteration In Some Form, By Injected
+              Humour, Or Randomised Words Which Do not Look Even Slightly
+              Believable.
             </p>
 
             <div className="mt-8">

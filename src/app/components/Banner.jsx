@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react';
-import banner from "../../../public/assets/images/banner/bannar.jpg"
+import Image from "next/image";
+import React from "react";
+import banner from "../../../public/assets/images/banner/bannar.jpg";
 
 // app/page.jsx
 // Next.js (App Router) page that reproduces the hero from the screenshot using Tailwind CSS
@@ -36,8 +36,9 @@ export default function Banner() {
                 </h2>
 
                 <p className="mt-4 text-sm sm:text-base md:text-lg text-white/90 max-w-xl">
-                  Reliable car service and maintenance using only certified technicians. Fast turnaround and a great warranty on
-                  all repairs.
+                  Reliable car service and maintenance using only certified
+                  technicians. Fast turnaround and a great warranty on all
+                  repairs.
                 </p>
 
                 <div className="mt-6 flex items-center gap-4">
@@ -63,7 +64,10 @@ export default function Banner() {
                   {/* small preview card (optional) */}
                   <div
                     className="w-full h-full bg-cover bg-center"
-                    style={{ backgroundImage: "url('/cb158682-8e45-4ba4-9519-890abce92ffe.png')" }}
+                    style={{
+                      backgroundImage:
+                        "url('/cb158682-8e45-4ba4-9519-890abce92ffe.png')",
+                    }}
                   />
                 </div>
 
@@ -81,12 +85,14 @@ export default function Banner() {
           <div className="absolute right-6 bottom-6 hidden lg:flex items-center gap-3">
             <button
               aria-label="previous"
-              className="w-10 h-10 rounded-full bg-white/90 text-gray-800 grid p-2 place-items-center shadow">
+              className="w-10 h-10 rounded-full bg-white/90 text-gray-800 grid p-2 place-items-center shadow"
+            >
               ‹
             </button>
             <button
               aria-label="next"
-              className="w-10 h-10 rounded-full bg-[#FF3811] text-white p-2 grid place-items-center shadow">
+              className="w-10 h-10 rounded-full bg-[#FF3811] text-white p-2 grid place-items-center shadow"
+            >
               ›
             </button>
           </div>
@@ -95,4 +101,3 @@ export default function Banner() {
     </main>
   );
 }
-
