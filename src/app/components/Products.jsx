@@ -39,7 +39,7 @@ export default function Products() {
     },
     {
       id: "006",
-      img: "https://i.ibb.co/KzCG8qr/8888.jpg",
+      img: "https://i.ibb.co.com/0yfc2Zmw/5-1.png",
       title: "Car Engine Plug",
       price: "$20.00",
     },
