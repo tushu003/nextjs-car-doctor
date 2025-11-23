@@ -9,7 +9,7 @@ export default function Products() {
   const products = [
     {
       id: "001",
-      img: "https://i.ibb.co.com/0VhL1tHV/6-1.png",
+      img: "https://i.ibb.co.com/9HVxFN3V/pngwing-1.png",
       title: "Car Engine Plug",
       price: "$20.00",
     },
