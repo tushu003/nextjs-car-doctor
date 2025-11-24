@@ -8,19 +8,19 @@ export default function Team() {
       id: 1,
       name: "Car Engine Plug",
       role: "Engine Expert",
-      img: "/mnt/data/26e004b9-d7b0-460c-9cc0-991f482eb48c.png",
+      img: "https://i.ibb.co.com/hRLw5jgs/1.jpg",
     },
     {
       id: 2,
       name: "Car Engine Plug",
       role: "Engine Expert",
-      img: "/mnt/data/26e004b9-d7b0-460c-9cc0-991f482eb48c.png",
+      img: "https://i.ibb.co.com/hRLw5jgs/1.jpg",
     },
     {
       id: 3,
       name: "Car Engine Plug",
       role: "Engine Expert",
-      img: "/mnt/data/26e004b9-d7b0-460c-9cc0-991f482eb48c.png",
+      img: "https://i.ibb.co.com/hRLw5jgs/1.jpg",
     },
   ];
 
@@ -63,7 +63,8 @@ export default function Team() {
             <Image
               src={person.img}
               alt={person.name}
-              className="w-full h-56 object-cover"
+              width={314}
+              height={272}
             />
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold">{person.name}</h3>
