@@ -1,3 +1,5 @@
+"use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Team() {
@@ -58,7 +60,7 @@ export default function Team() {
               i === index ? "opacity-100" : "opacity-40"
             }`}
           >
-            <img
+            <Image
               src={person.img}
               alt={person.name}
               className="w-full h-56 object-cover"
