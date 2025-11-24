@@ -35,7 +35,7 @@ export default function Team() {
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto py-10 px-4 relative">
+    <div className="w-full max-w-7xl mx-auto py-10 px-4 relative">
       <div className="flex items-center justify-between absolute left-0 top-1/2 -translate-y-1/2 w-full px-2 z-10">
         <button
           onClick={prev}
