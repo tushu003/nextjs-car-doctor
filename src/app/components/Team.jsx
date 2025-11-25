@@ -39,7 +39,7 @@ export default function Team() {
       <div className="flex items-center justify-between absolute left-0 top-1/2 -translate-y-1/2 w-full px-2 z-10">
         <button
           onClick={prev}
-          className="w-10 h-10 flex items-center justify-center bg-white border rounded-full shadow hover:bg-gray-100"
+          className="w-10 h-10 flex items-center mr-8 justify-center bg-white border rounded-full shadow hover:bg-gray-100"
         >
           ←
         </button>
