@@ -46,7 +46,7 @@ export default function Team() {
 
         <button
           onClick={next}
-          className="w-10 h-10 flex items-center justify-center bg-red-500 text-white border rounded-full shadow hover:bg-red-600"
+          className="w-10 h-10 flex items-center ml-8 justify-center bg-red-500 text-white border rounded-full shadow hover:bg-red-600"
         >
           →
         </button>
